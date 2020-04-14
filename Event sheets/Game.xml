@@ -713,9 +713,10 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
-                                        <event-block sid="610311174738136">
+                                        <comment>Actions with wood type objects</comment>
+                                        <event-block sid="171894610415028">
                                             <conditions>
-                                                <condition id="1" name="Is overlapping another object" sid="961911365719574" type="User">
+                                                <condition id="1" name="Is overlapping another object" sid="315483826363518" type="User">
                                                     <param id="0" name="Object">Twig</param>
                                                 </condition>
                                             </conditions>
@@ -779,17 +780,6 @@
                                                         </event-block>
                                                     </sub-events>
                                                 </event-block>
-                                            </sub-events>
-                                        </event-block>
-                                        <comment>Actions with wood type objects</comment>
-                                        <event-block sid="171894610415028">
-                                            <conditions>
-                                                <condition id="1" name="Is overlapping another object" sid="315483826363518" type="User">
-                                                    <param id="0" name="Object">Twig</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions />
-                                            <sub-events>
                                                 <event-block sid="260778128874827">
                                                     <conditions>
                                                         <condition id="2" name="Is playing" sid="752653896355189" type="Twig">
@@ -1025,10 +1015,6 @@
                                     </sub-events>
                                 </event-block>
                             </sub-events>
-                        </event-block>
-                        <event-block sid="405041153004107">
-                            <conditions />
-                            <actions />
                         </event-block>
                     </sub-events>
                 </event-group>
