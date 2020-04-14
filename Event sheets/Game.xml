@@ -303,6 +303,25 @@
         </event-group>
         <event-group description="" sid="322412288923934" title="Game Objects">
             <sub-events>
+                <event-group description="" disabled="1" sid="352936028996463" title="Player">
+                    <sub-events>
+                        <event-block sid="685940701342589">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="952293385539558" type="Player">
+                                    <param id="0" name="Instance variable">Size</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="418971557239898" type="System">
+                                    <param id="0" name="Variable">Paused</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="894486133657938" title="Advancements">
                     <sub-events>
                         <event-block sid="743103038231568">
@@ -633,6 +652,31 @@
                                                             <param id="1" name="Value">1</param>
                                                         </action>
                                                     </actions>
+                                                    <sub-events>
+                                                        <event-block sid="430257229947114">
+                                                            <conditions>
+                                                                <condition id="1" name="Is overlapping another object" sid="624225478450954" type="Boulder">
+                                                                    <param id="0" name="Object">User</param>
+                                                                </condition>
+                                                                <condition id="1" name="Is overlapping another object" sid="400617543102402" type="Boulder">
+                                                                    <param id="0" name="Object">LeafPile</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="0" name="Spawn another object" sid="335832867169027" type="LeafPile">
+                                                                    <param id="0" name="Object">Flame</param>
+                                                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                                                    <param id="2" name="Image point">0</param>
+                                                                </action>
+                                                                <action id="-9" name="Destroy" sid="941684329416890" type="LeafPile" />
+                                                                <action id="0" name="Spawn another object" sid="991533431775469" type="Flame">
+                                                                    <param id="0" name="Object">FlameLight</param>
+                                                                    <param id="1" name="Layer">&quot;Light&quot;</param>
+                                                                    <param id="2" name="Image point">0</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
@@ -740,6 +784,49 @@
                                                     <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
+                                        </event-block>
+                                        <event-block sid="217818116495376">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="473065801407733" type="Stick">
+                                                    <param id="0" name="Instance variable">Picked</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="127859106188526">
+                                                    <conditions>
+                                                        <condition id="1" name="Is overlapping another object" sid="279980635242814" type="User">
+                                                            <param id="0" name="Object">Flame</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="168498508856699" type="Player">
+                                                            <param id="0" name="Instance variable">Idle</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="0" name="Spawn another object" sid="148627930186681" type="Sharp">
+                                                            <param id="0" name="Object">Stick4</param>
+                                                            <param id="1" name="Layer">&quot;Items&quot;</param>
+                                                            <param id="2" name="Image point">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="746290227288234" type="Stick" />
+                                                        <action id="-14" name="Toggle boolean" sid="399073741523836" type="Stick4">
+                                                            <param id="0" name="Instance variable">Picked</param>
+                                                        </action>
+                                                        <action id="-10" name="Set value" sid="654909296063087" type="Player">
+                                                            <param id="0" name="Instance variable">Inventory</param>
+                                                            <param id="1" name="Value">&quot;Torch&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="190419002311482" type="System">
+                                                            <param id="0" name="Seconds">0.1</param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="791837828602306" type="Player">
+                                                            <param id="0" name="Instance variable">Idle</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
                                         </event-block>
                                         <event-block sid="171894610415028">
                                             <conditions>
@@ -1065,6 +1152,67 @@
                 </event-group>
                 <event-group description="" sid="378410442180396" title="Objects and Items">
                     <sub-events>
+                        <event-group description="" sid="588516670745487" title="Fire">
+                            <sub-events>
+                                <event-block sid="436069536314749">
+                                    <conditions>
+                                        <condition id="4" name="On finished" sid="686625706674352" type="Flame">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="431615574974858" type="Flame">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="817517532217021">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="150073210666895" type="Flame">
+                                            <param id="0" name="Object">Player</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="452367094316772" type="Player">
+                                            <param id="0" name="Instance variable">Size</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">9</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="109630705413447" type="Player">
+                                            <param id="0" name="Instance variable">Size</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="721983703806757">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="736076355600586" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-4" name="Set position to another object" sid="425119560184246" type="TorchLight">
+                                            <param id="0" name="Object">Stick4</param>
+                                            <param id="1" name="Image point (optional)">&quot;fire&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="419228827623101">
+                                    <conditions>
+                                        <condition id="-18" name="On created" sid="403698955779710" type="Light" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="1" name="Set blend mode" sid="830367667741890" type="Light">
+                                            <param id="0" name="Blend mode">8</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="539336194932584" type="Light">
+                                            <param id="0" name="Opacity">75</param>
+                                        </action>
+                                        <action id="-26" name="Move to layer" sid="182436749806076" type="Light">
+                                            <param id="0" name="Layer">&quot;Light&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
                         <event-group description="" sid="159892324805268" title="Items">
                             <sub-events>
                                 <event-block sid="325297002281888">
@@ -1293,6 +1441,11 @@
                                         </action>
                                         <action id="9" name="Set scale" sid="634574279813160" type="Boulder">
                                             <param id="0" name="Scale">Self.Rocks/120</param>
+                                        </action>
+                                        <action id="0" name="Spawn another object" sid="701065761688421" type="Flame">
+                                            <param id="0" name="Object">FlameLight</param>
+                                            <param id="1" name="Layer">&quot;Light&quot;</param>
+                                            <param id="2" name="Image point">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
