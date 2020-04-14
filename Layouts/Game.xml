@@ -3303,7 +3303,6 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Stuff>true</Stuff>
                         <Inv>1</Inv>
                         <Idle>true</Idle>
                         <Size>20</Size>
@@ -6335,7 +6334,7 @@
                     </properties>
                     <instance-variables>
                         <Picked>false</Picked>
-                        <Namee>Cookie</Namee>
+                        <Namee>SharpedRock</Namee>
                         <Size>25</Size>
                         <Health>30</Health>
                         <Tier>0</Tier>
@@ -6381,7 +6380,7 @@
                     </properties>
                     <instance-variables>
                         <Picked>false</Picked>
-                        <Namee>Cookie</Namee>
+                        <Namee>Stick</Namee>
                         <Size>10</Size>
                         <Health>10</Health>
                         <Tier>1</Tier>
