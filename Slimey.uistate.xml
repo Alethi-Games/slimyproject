@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Game</layout>
+        <layout order="0">Game</layout>
         <layout order="2">Menu</layout>
         <layout order="3">Credits</layout>
-        <event-sheet order="1">Game</event-sheet>
+        <event-sheet active="1" order="1">Game</event-sheet>
         <event-sheet order="4">Event sheet 1</event-sheet>
         <event-sheet order="5">Menu</event-sheet>
     </open-tabs>
@@ -24,11 +24,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="1" name="ITEMS" />
+        <family expanded="0" name="Items" />
         <family expanded="0" name="User" />
         <family expanded="0" name="Food" />
-        <family expanded="1" name="Objects" />
-        <family expanded="1" name="PhoneControls" />
+        <family expanded="0" name="Objects" />
+        <family expanded="0" name="PhoneControls" />
+        <family expanded="0" name="Mobs" />
+        <family expanded="0" name="Light" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -62,7 +64,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/LeafPile/" />
         <folder expanded="1" path="animation-folder/StoneTool/" />
-        <folder expanded="1" path="animation-folder/SharpedRock/" />
+        <folder expanded="1" path="animation-folder/SharpRock/" />
+        <folder expanded="1" path="animation-folder/Flame/" />
+        <folder expanded="1" path="animation-folder/FlameLight/" />
+        <folder expanded="1" path="animation-folder/Torch/" />
+        <folder expanded="1" path="animation-folder/TorchLight/" />
         <folder expanded="1" path="animation-folder/Son/" />
         <folder expanded="1" path="animation-folder/Soff/" />
         <folder expanded="1" path="animation-folder/DirtCube/" />
@@ -70,6 +76,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Scroll/" />
         <folder expanded="1" path="animation-folder/Fly/" />
+        <folder expanded="1" path="animation-folder/Ant/" />
         <folder expanded="1" path="animation-folder/View/" />
         <folder expanded="1" path="animation-folder/Player/" />
         <folder expanded="1" path="animation-folder/LeftTap/" />
@@ -77,6 +84,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/RightTap/" />
         <folder expanded="1" path="animation-folder/Pick/" />
         <folder expanded="1" path="animation-folder/Craft/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/AntSpawn/" />
+        <folder expanded="1" path="animation-folder/FlySpawn/" />
     </folders-expanded>
 </c2uistate>
