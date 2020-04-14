@@ -203,7 +203,7 @@
             <object-type name="Rock" sid="551788655993674">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="804242094341669" speed="5">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="804242094341669" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="1">
                             <collision-poly>
                                 <point x="0.178571" y="0.208333" />
@@ -213,18 +213,6 @@
                                 <point x="0.857143" y="0.833333" />
                                 <point x="0.5" y="0.958333" />
                                 <point x="0.107143" y="0.875" />
-                                <point x="0.0357143" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.357143" hotspotY="0.791667">
-                            <collision-poly>
-                                <point x="0.214286" y="0.25" />
-                                <point x="0.5" y="0.375" />
-                                <point x="0.642857" y="0.416667" />
-                                <point x="0.785714" y="0.5" />
-                                <point x="0.714286" y="0.666667" />
-                                <point x="0.5" y="0.75" />
-                                <point x="0.178571" y="0.791667" />
                                 <point x="0.0357143" y="0.5" />
                             </collision-poly>
                         </frame>
