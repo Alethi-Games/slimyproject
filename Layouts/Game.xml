@@ -34,6 +34,9 @@
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="NoSave" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -113,6 +116,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="NoSave" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -612,44 +618,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="129">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8176</x>
-                        <y>896</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="130">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -840,44 +808,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="135">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9136</x>
-                        <y>688</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="136">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -944,44 +874,6 @@
                     <world>
                         <x>11248</x>
                         <y>1152</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="138">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>11584</x>
-                        <y>672</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -1068,44 +960,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="141">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6512</x>
-                        <y>672</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1134,158 +988,6 @@
                     <world>
                         <x>6240</x>
                         <y>1280</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="143">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7328</x>
-                        <y>944</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="144">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3552</x>
-                        <y>704</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="145">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5952</x>
-                        <y>816</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="146">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6624</x>
-                        <y>976</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -1448,44 +1150,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="152">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6864</x>
-                        <y>896</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1590,44 +1254,6 @@
                     <world>
                         <x>12992</x>
                         <y>1264</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="156">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10304</x>
-                        <y>688</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -1866,44 +1492,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="163">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4672</x>
-                        <y>784</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="164">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2132,44 +1720,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="170">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2512</x>
-                        <y>624</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="171">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2274,44 +1824,6 @@
                     <world>
                         <x>6736</x>
                         <y>1360</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="174">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7424</x>
-                        <y>864</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -2550,44 +2062,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="181">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5264</x>
-                        <y>704</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="182">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2660,28 +2134,6 @@
                         <depth>0</depth>
                         <hotspotX>12.5</hotspotX>
                         <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite2" uid="184">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-416</x>
-                        <y>1680</y>
-                        <z>0</z>
-                        <width>45</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>1.444444418</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -3048,6 +2500,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="NoSave" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3225,6 +2678,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="NoSave" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3252,6 +2706,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="NoSave" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3279,6 +2734,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="NoSave" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3310,7 +2766,6 @@
                         <Inventory>Empty</Inventory>
                         <Weight>0</Weight>
                         <CarryW>0</CarryW>
-                        <Tier>0</Tier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -3355,7 +2810,7 @@
                 </instance>
                 <instance type="View" uid="5">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -3383,6 +2838,9 @@
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="NoSave" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -3455,44 +2913,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="67">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2416</x>
-                        <y>752</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="68">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3531,196 +2951,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="69">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5440</x>
-                        <y>640</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="70">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6752</x>
-                        <y>912</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="71">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7424</x>
-                        <y>720</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="72">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8864</x>
-                        <y>944</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="73">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10384</x>
-                        <y>560</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="74">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3749,158 +2979,6 @@
                     <world>
                         <x>11680</x>
                         <y>944</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="75">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6400</x>
-                        <y>432</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="76">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6992</x>
-                        <y>928</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="77">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8512</x>
-                        <y>896</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="78">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8848</x>
-                        <y>416</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -4025,44 +3103,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="83">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4592</x>
-                        <y>688</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -4129,44 +3169,6 @@
                     <world>
                         <x>4304</x>
                         <y>832</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="89">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5728</x>
-                        <y>944</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -4291,82 +3293,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="93">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9168</x>
-                        <y>736</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="94">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9840</x>
-                        <y>896</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="95">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -4395,44 +3321,6 @@
                     <world>
                         <x>10256</x>
                         <y>1008</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="96">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7568</x>
-                        <y>432</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -4547,44 +3435,6 @@
                     <world>
                         <x>12896</x>
                         <y>1152</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="100">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10208</x>
-                        <y>576</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -4861,44 +3711,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="109">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2464</x>
-                        <y>944</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="110">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -4927,44 +3739,6 @@
                     <world>
                         <x>-240</x>
                         <y>368</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="111">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2288</x>
-                        <y>752</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -5051,44 +3825,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="114">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4688</x>
-                        <y>608</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5117,44 +3853,6 @@
                     <world>
                         <x>4416</x>
                         <y>1216</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="116">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5504</x>
-                        <y>880</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -5241,44 +3939,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fly" uid="119">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4800</x>
-                        <y>912</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Fly" uid="120">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5307,44 +3967,6 @@
                     <world>
                         <x>5216</x>
                         <y>1024</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>15</height>
-                        <depth>0</depth>
-                        <hotspotX>12.5</hotspotX>
-                        <hotspotY>8.333333015</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Fly" uid="122">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>32</cell-size>
-                                <cell-border>16</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>100</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5040</x>
-                        <y>832</y>
                         <z>0</z>
                         <width>10</width>
                         <height>15</height>
@@ -5404,8 +4026,8 @@
                         <Picked>false</Picked>
                         <Namee>Rock</Namee>
                         <Size>40</Size>
-                        <Health>20</Health>
-                        <Tier>1</Tier>
+                        <Health>50</Health>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5451,7 +4073,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5497,7 +4119,7 @@
                         <Namee>Cookie</Namee>
                         <Size>10</Size>
                         <Health>10</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5565,7 +4187,7 @@
                         <Namee>Acorn</Namee>
                         <Size>10</Size>
                         <Health>10</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5638,7 +4260,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5684,7 +4306,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5730,7 +4352,7 @@
                         <Namee>Log</Namee>
                         <Size>45</Size>
                         <Health>40</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5771,28 +4393,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="85">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-224</x>
-                        <y>1408</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite4" uid="88">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5827,7 +4427,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5873,7 +4473,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5919,7 +4519,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -5965,7 +4565,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -6011,7 +4611,7 @@
                         <Namee>Twig</Namee>
                         <Size>20</Size>
                         <Health>20</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -6125,10 +4725,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>128</x>
-                        <y>448</y>
+                        <y>432</y>
                         <z>0</z>
                         <width>64</width>
-                        <height>64</height>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6161,10 +4761,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>48</x>
-                        <y>448</y>
+                        <y>432</y>
                         <z>0</z>
                         <width>64</width>
-                        <height>64</height>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6197,10 +4797,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>608</x>
-                        <y>448</y>
+                        <y>432</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>64</height>
+                        <width>80</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6232,11 +4832,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>496</x>
-                        <y>448</y>
+                        <x>464</x>
+                        <y>432</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>64</height>
+                        <width>80</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -6268,152 +4868,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>560</x>
-                        <y>448</y>
+                        <x>544</x>
+                        <y>432</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>64</height>
+                        <width>80</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="StoneTool" uid="205">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Picked>false</Picked>
-                        <Namee>Stone Tool</Namee>
-                        <Size>35</Size>
-                        <Health>150</Health>
-                        <Tier>2</Tier>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Platform">
-                            <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
-                                <max-fall-speed>1000</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
-                                <jump-sustain>0</jump-sustain>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-216</x>
-                        <y>1640</y>
-                        <z>0</z>
-                        <width>48</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="SharpedRock" uid="206">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Picked>false</Picked>
-                        <Namee>Cookie</Namee>
-                        <Size>25</Size>
-                        <Health>30</Health>
-                        <Tier>0</Tier>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Platform">
-                            <properties>
-                                <max-speed>400</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>1000</deceleration>
-                                <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
-                                <max-fall-speed>850</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
-                                <jump-sustain>0</jump-sustain>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-272</x>
-                        <y>1808</y>
-                        <z>0</z>
-                        <width>28</width>
-                        <height>24</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stick" uid="207">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Picked>false</Picked>
-                        <Namee>Cookie</Namee>
-                        <Size>10</Size>
-                        <Health>10</Health>
-                        <Tier>1</Tier>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Platform">
-                            <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
-                                <max-fall-speed>1000</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
-                                <jump-sustain>0</jump-sustain>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-416</x>
-                        <y>1680</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0.0625</hotspotX>
-                        <hotspotY>0.9375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -6482,7 +4944,7 @@
                         <Namee>Leaf Glob</Namee>
                         <Size>22</Size>
                         <Health>15</Health>
-                        <Tier>0</Tier>
+                        <ToolTier>0</ToolTier>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -6592,6 +5054,42 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="BackTap" uid="206">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Left</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Pressed>false</Pressed>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Anchor">
+                            <properties>
+                                <left-edge>None</left-edge>
+                                <top-edge>None</top-edge>
+                                <right-edge>None</right-edge>
+                                <bottom-edge>None</bottom-edge>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>32</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -6625,8 +5123,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-464</x>
-                        <y>1008</y>
+                        <x>-352</x>
+                        <y>-16</y>
                         <z>0</z>
                         <width>558</width>
                         <height>398</height>
@@ -6655,8 +5153,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-528</x>
-                        <y>912</y>
+                        <x>-416</x>
+                        <y>-144</y>
                         <z>0</z>
                         <width>128</width>
                         <height>24</height>
@@ -6683,8 +5181,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-528</x>
-                        <y>960</y>
+                        <x>-416</x>
+                        <y>-96</y>
                         <z>0</z>
                         <width>128</width>
                         <height>24</height>
@@ -6708,10 +5206,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-352</x>
-                        <y>1168</y>
+                        <x>-472</x>
+                        <y>112</y>
                         <z>0</z>
-                        <width>200</width>
+                        <width>224</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
