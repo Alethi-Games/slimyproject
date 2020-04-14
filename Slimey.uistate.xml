@@ -56,6 +56,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/OakLog/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/LeafPile/" />
+        <folder expanded="1" path="animation-folder/Stick/" />
+        <folder expanded="1" path="animation-folder/Sharp/" />
+        <folder expanded="1" path="animation-folder/StoneAxe/" />
         <folder expanded="1" path="animation-folder/Son/" />
         <folder expanded="1" path="animation-folder/Soff/" />
         <folder expanded="1" path="animation-folder/DirtCube/" />
@@ -72,6 +75,5 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Craft/" />
         <folder expanded="1" path="animation-folder/BackTap/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/StoneTool/" />
     </folders-expanded>
 </c2uistate>

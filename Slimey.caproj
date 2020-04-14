@@ -146,20 +146,6 @@
                     <animation framecount="1" loop="0" name="Twig" pingpong="0" repeatcount="1" repeatto="0" sid="769860819863939" speed="5">
                         <frame duration="1" hotspotX="0.0625" hotspotY="0.9375" />
                     </animation>
-                    <animation framecount="1" loop="0" name="Stick" pingpong="0" repeatcount="1" repeatto="0" sid="841183106370677" speed="5">
-                        <frame duration="1" hotspotX="0.0625" hotspotY="0.9375" original-source="C:\Users\Paulius\Pictures\stick.png">
-                            <collision-poly>
-                                <point x="0.4375" y="0.4375" />
-                                <point x="0.5" y="0.34375" />
-                                <point x="0.5" y="0.5" />
-                                <point x="0.5625" y="0.5" />
-                                <point x="0.53125" y="0.53125" />
-                                <point x="0.5" y="0.53125" />
-                                <point x="0.03125" y="0.96875" />
-                                <point x="0.375" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="Boulder" sid="413674430325812">
@@ -210,32 +196,6 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Sharp" pingpong="0" repeatcount="1" repeatto="0" sid="607860874691468" speed="5">
-                        <frame duration="1" hotspotX="0.357143" hotspotY="0.791667">
-                            <collision-poly>
-                                <point x="0.214286" y="0.25" />
-                                <point x="0.5" y="0.375" />
-                                <point x="0.642857" y="0.416667" />
-                                <point x="0.785714" y="0.5" />
-                                <point x="0.714286" y="0.666667" />
-                                <point x="0.5" y="0.75" />
-                                <point x="0.178571" y="0.791667" />
-                                <point x="0.0357143" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                    <animation framecount="1" loop="0" name="Axe" pingpong="0" repeatcount="1" repeatto="0" sid="965124019905015" speed="5">
-                        <frame duration="1" hotspotX="0.59375" hotspotY="0.6875" original-source="C:\Programavimas\Construct\Migs\Animations\StoneTool\Default\000.png">
-                            <collision-poly>
-                                <point x="0.59375" y="0.59375" />
-                                <point x="0.84375" y="0.15625" />
-                                <point x="0.65625" y="0.5" />
-                                <point x="0.625" y="0.625" />
-                                <point x="0.625" y="0.375" />
-                                <point x="0.59375" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="OakLog" sid="876988025985969">
@@ -275,6 +235,61 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113766093875257" speed="5">
                         <frame duration="1" hotspotX="0.515625" hotspotY="0.9375" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Stick" sid="954736952470295">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Stick" pingpong="0" repeatcount="1" repeatto="0" sid="965842832554612" speed="5">
+                        <frame duration="1" hotspotX="0.0625" hotspotY="0.9375" original-source="C:\Users\Paulius\Pictures\stick.png">
+                            <collision-poly>
+                                <point x="0.4375" y="0.4375" />
+                                <point x="0.5" y="0.34375" />
+                                <point x="0.5" y="0.5" />
+                                <point x="0.5625" y="0.5" />
+                                <point x="0.53125" y="0.53125" />
+                                <point x="0.5" y="0.53125" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0.375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sharp" sid="559527744233907">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Sharp" pingpong="0" repeatcount="1" repeatto="0" sid="169768167926595" speed="5">
+                        <frame duration="1" hotspotX="0.357143" hotspotY="0.791667">
+                            <collision-poly>
+                                <point x="0.214286" y="0.25" />
+                                <point x="0.5" y="0.375" />
+                                <point x="0.642857" y="0.416667" />
+                                <point x="0.785714" y="0.5" />
+                                <point x="0.714286" y="0.666667" />
+                                <point x="0.5" y="0.75" />
+                                <point x="0.178571" y="0.791667" />
+                                <point x="0.0357143" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="StoneAxe" sid="298685813969745">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Axe" pingpong="0" repeatcount="1" repeatto="0" sid="745116814200194" speed="5">
+                        <frame duration="1" hotspotX="0.59375" hotspotY="0.6875" original-source="C:\Programavimas\Construct\Migs\Animations\StoneTool\Default\000.png">
+                            <collision-poly>
+                                <point x="0.59375" y="0.59375" />
+                                <point x="0.84375" y="0.15625" />
+                                <point x="0.65625" y="0.5" />
+                                <point x="0.625" y="0.625" />
+                                <point x="0.625" y="0.375" />
+                                <point x="0.59375" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -604,7 +619,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493263699743526" speed="5">
-                        <frame duration="1" hotspotX="12.5" hotspotY="8.33333" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.533333" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1012,25 +1027,6 @@
         <object-type name="Button" sid="677653242303994">
             <plugin id="Button" />
         </object-type>
-        <object-type name="StoneTool" sid="535779509031534">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="242635915219295" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\João Matta\Desktop\stone_tool.png">
-                        <collision-poly>
-                            <point x="0.484375" y="0.0979567" />
-                            <point x="0.71875" y="0" />
-                            <point x="1" y="0.229567" />
-                            <point x="0.734375" y="0.390625" />
-                            <point x="0.726563" y="0.641827" />
-                            <point x="0.585938" y="0.767428" />
-                            <point x="0.460938" y="0.567308" />
-                            <point x="0.4375" y="0.320313" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families>
         <family name="ITEMS" plugin-id="Sprite" sid="808040129914787">
@@ -1040,6 +1036,9 @@
                 <member>LeafPile</member>
                 <member>OakLog</member>
                 <member>Rock</member>
+                <member>Sharp</member>
+                <member>Stick</member>
+                <member>StoneAxe</member>
                 <member>Twig</member>
             </members>
             <instance-variables>
