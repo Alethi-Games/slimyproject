@@ -297,48 +297,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Stick2" sid="780245927476358">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Stick" pingpong="0" repeatcount="1" repeatto="0" sid="629538389166471" speed="5">
-                        <frame duration="1" hotspotX="0.0625" hotspotY="0.9375" original-source="C:\Users\Paulius\Pictures\stick.png">
-                            <collision-poly>
-                                <point x="0.4375" y="0.4375" />
-                                <point x="0.5" y="0.34375" />
-                                <point x="0.5" y="0.5" />
-                                <point x="0.5625" y="0.5" />
-                                <point x="0.53125" y="0.53125" />
-                                <point x="0.5" y="0.53125" />
-                                <point x="0.03125" y="0.96875" />
-                                <point x="0.375" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Stick3" sid="927534048329571">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Stick" pingpong="0" repeatcount="1" repeatto="0" sid="353385642955942" speed="5">
-                        <frame duration="1" hotspotX="0.0625" hotspotY="0.9375" original-source="C:\Users\Paulius\Pictures\stick.png">
-                            <collision-poly>
-                                <point x="0.4375" y="0.4375" />
-                                <point x="0.5" y="0.34375" />
-                                <point x="0.5" y="0.5" />
-                                <point x="0.5625" y="0.5" />
-                                <point x="0.53125" y="0.53125" />
-                                <point x="0.5" y="0.53125" />
-                                <point x="0.03125" y="0.96875" />
-                                <point x="0.375" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Stick4" sid="485795016279490">
+            <object-type name="Torch" sid="485795016279490">
                 <plugin id="Sprite" />
                 <container>
-                    <type>Stick4</type>
+                    <type>Torch</type>
                     <type>TorchLight</type>
                 </container>
                 <animation-folder>
@@ -444,7 +406,7 @@
                     </effect-type>
                 </effects>
                 <container>
-                    <type>Stick4</type>
+                    <type>Torch</type>
                     <type>TorchLight</type>
                 </container>
                 <animation-folder>
@@ -1205,10 +1167,8 @@
                 <member>Rock</member>
                 <member>Sharp</member>
                 <member>Stick</member>
-                <member>Stick2</member>
-                <member>Stick3</member>
-                <member>Stick4</member>
                 <member>StoneAxe</member>
+                <member>Torch</member>
                 <member>Twig</member>
             </members>
             <instance-variables>

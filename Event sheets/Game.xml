@@ -805,12 +805,12 @@
                                                             <param id="1" name="Value">0</param>
                                                         </action>
                                                         <action id="0" name="Spawn another object" sid="148627930186681" type="Sharp">
-                                                            <param id="0" name="Object">Stick4</param>
+                                                            <param id="0" name="Object">Torch</param>
                                                             <param id="1" name="Layer">&quot;Items&quot;</param>
                                                             <param id="2" name="Image point">0</param>
                                                         </action>
                                                         <action id="-9" name="Destroy" sid="746290227288234" type="Stick" />
-                                                        <action id="-14" name="Toggle boolean" sid="399073741523836" type="Stick4">
+                                                        <action id="-14" name="Toggle boolean" sid="399073741523836" type="Torch">
                                                             <param id="0" name="Instance variable">Picked</param>
                                                         </action>
                                                         <action id="-10" name="Set value" sid="654909296063087" type="Player">
@@ -1190,7 +1190,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-4" name="Set position to another object" sid="425119560184246" type="TorchLight">
-                                            <param id="0" name="Object">Stick4</param>
+                                            <param id="0" name="Object">Torch</param>
                                             <param id="1" name="Image point (optional)">&quot;fire&quot;</param>
                                         </action>
                                     </actions>

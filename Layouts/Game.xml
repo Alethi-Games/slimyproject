@@ -4502,7 +4502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stick4" uid="71">
+                <instance type="Torch" uid="71">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4512,7 +4512,7 @@
                     <instance-variables>
                         <Picked>false</Picked>
                         <Namee>Torch</Namee>
-                        <Size>15</Size>
+                        <Size>12</Size>
                         <Health>20</Health>
                         <ToolTier>0</ToolTier>
                     </instance-variables>
@@ -4578,7 +4578,7 @@
                 <y>1</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
-            <opacity>0.8</opacity>
+            <opacity>0</opacity>
             <force-own-texture>1</force-own-texture>
             <global>0</global>
             <use-render-cells>0</use-render-cells>
@@ -4614,7 +4614,7 @@
                     <effect-fallback>8</effect-fallback>
                     <world>
                         <x>-416</x>
-                        <y>1392</y>
+                        <y>1344</y>
                         <z>0</z>
                         <width>700</width>
                         <height>512</height>
@@ -4653,8 +4653,8 @@
                     <blend-mode>8</blend-mode>
                     <effect-fallback>8</effect-fallback>
                     <world>
-                        <x>-400</x>
-                        <y>1296</y>
+                        <x>-464</x>
+                        <y>1072</y>
                         <z>0</z>
                         <width>300</width>
                         <height>300</height>
