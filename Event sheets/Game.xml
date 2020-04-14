@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game</name>
     <events>
-        <variable constant="0" name="Tier" sid="377797839635376" static="0" type="number">0</variable>
         <variable constant="0" name="SaveSlot" sid="385990055195058" static="0" type="number">1</variable>
         <variable comment="1 on 0 off" constant="0" name="Paused" sid="267636984459356" static="0" type="number">0</variable>
         <variable constant="0" name="StageAge" sid="863747552103618" static="0" type="number">0</variable>
@@ -391,8 +390,8 @@
                                             <sub-events>
                                                 <event-block sid="730616640556283">
                                                     <conditions>
-                                                        <condition id="-14" name="Compare variable" sid="508476205264024" type="System">
-                                                            <param id="0" name="Variable">Tier</param>
+                                                        <condition id="-7" name="Compare instance variable" sid="508476205264024" type="Player">
+                                                            <param id="0" name="Instance variable">Tier</param>
                                                             <param id="1" name="Comparison">5</param>
                                                             <param id="2" name="Value">1</param>
                                                         </condition>
@@ -520,8 +519,8 @@
                                             <sub-events>
                                                 <event-block sid="806375274623980">
                                                     <conditions>
-                                                        <condition id="-14" name="Compare variable" sid="697791244690416" type="System">
-                                                            <param id="0" name="Variable">Tier</param>
+                                                        <condition id="-7" name="Compare instance variable" sid="194215082755378" type="Player">
+                                                            <param id="0" name="Instance variable">Tier</param>
                                                             <param id="1" name="Comparison">5</param>
                                                             <param id="2" name="Value">1</param>
                                                         </condition>
@@ -751,8 +750,8 @@
                                                     <sub-events>
                                                         <event-block sid="543530748998897">
                                                             <conditions>
-                                                                <condition id="-14" name="Compare variable" sid="743482420355862" type="System">
-                                                                    <param id="0" name="Variable">Tier</param>
+                                                                <condition id="-7" name="Compare instance variable" sid="549761411915475" type="Player">
+                                                                    <param id="0" name="Instance variable">Tier</param>
                                                                     <param id="1" name="Comparison">5</param>
                                                                     <param id="2" name="Value">2</param>
                                                                 </condition>
@@ -1004,54 +1003,11 @@
                                                                     <param id="0" name="Instance variable">Idle</param>
                                                                     <param id="1" name="Value">1</param>
                                                                 </action>
+                                                                <action id="-10" name="Set value" sid="607748747369473" type="Player">
+                                                                    <param id="0" name="Instance variable">Tier</param>
+                                                                    <param id="1" name="Value">Items.Tier</param>
+                                                                </action>
                                                             </actions>
-                                                            <sub-events>
-                                                                <event-block sid="332289628111794">
-                                                                    <conditions>
-                                                                        <condition id="-7" name="Compare instance variable" sid="976309917494692" type="Items">
-                                                                            <param id="0" name="Instance variable">Tier</param>
-                                                                            <param id="1" name="Comparison">0</param>
-                                                                            <param id="2" name="Value">0</param>
-                                                                        </condition>
-                                                                    </conditions>
-                                                                    <actions>
-                                                                        <action id="-9" name="Set value" sid="983810169837285" type="System">
-                                                                            <param id="0" name="Variable">Tier</param>
-                                                                            <param id="1" name="Value">0</param>
-                                                                        </action>
-                                                                    </actions>
-                                                                </event-block>
-                                                                <event-block sid="808487392974297">
-                                                                    <conditions>
-                                                                        <condition id="-7" name="Compare instance variable" sid="665768506991977" type="Items">
-                                                                            <param id="0" name="Instance variable">Tier</param>
-                                                                            <param id="1" name="Comparison">0</param>
-                                                                            <param id="2" name="Value">1</param>
-                                                                        </condition>
-                                                                    </conditions>
-                                                                    <actions>
-                                                                        <action id="-9" name="Set value" sid="630639168444119" type="System">
-                                                                            <param id="0" name="Variable">Tier</param>
-                                                                            <param id="1" name="Value">1</param>
-                                                                        </action>
-                                                                    </actions>
-                                                                </event-block>
-                                                                <event-block sid="363102413047008">
-                                                                    <conditions>
-                                                                        <condition id="-7" name="Compare instance variable" sid="966743550061456" type="Items">
-                                                                            <param id="0" name="Instance variable">Tier</param>
-                                                                            <param id="1" name="Comparison">0</param>
-                                                                            <param id="2" name="Value">2</param>
-                                                                        </condition>
-                                                                    </conditions>
-                                                                    <actions>
-                                                                        <action id="-9" name="Set value" sid="759994319048607" type="System">
-                                                                            <param id="0" name="Variable">Tier</param>
-                                                                            <param id="1" name="Value">2</param>
-                                                                        </action>
-                                                                    </actions>
-                                                                </event-block>
-                                                            </sub-events>
                                                         </event-block>
                                                         <event-block sid="179466244452139">
                                                             <conditions>
