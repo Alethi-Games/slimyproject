@@ -651,7 +651,6 @@
             <object-type name="Player" sid="278958709260488">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Stuff" sid="865394399004260" type="boolean" />
                     <instance-variable name="Inv" sid="850376913756355" type="number" />
                     <instance-variable name="Idle" sid="144797686580020" type="boolean" />
                     <instance-variable name="Size" sid="978853298874990" type="number" />
