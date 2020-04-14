@@ -960,14 +960,6 @@
         <object-type name="Credits" sid="515677649117014">
             <plugin id="Button" />
         </object-type>
-        <object-type name="Sprite5" sid="275169083091573">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490417219588504" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Touch" sid="649031996270048">
             <plugin id="Touch" />
         </object-type>
@@ -976,6 +968,22 @@
         </object-type>
         <object-type name="Button" sid="677653242303994">
             <plugin id="Button" />
+        </object-type>
+        <object-type name="AntSpawn" sid="752381536686602">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510954390753725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FlySpawn" sid="542313294464235">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347758567863582" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>

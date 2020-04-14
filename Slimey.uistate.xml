@@ -79,6 +79,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/RightTap/" />
         <folder expanded="1" path="animation-folder/Pick/" />
         <folder expanded="1" path="animation-folder/Craft/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/AntSpawn/" />
+        <folder expanded="1" path="animation-folder/FlySpawn/" />
     </folders-expanded>
 </c2uistate>

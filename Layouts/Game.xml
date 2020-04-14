@@ -6064,7 +6064,7 @@
                                 <acceleration>1000</acceleration>
                                 <deceleration>2000</deceleration>
                                 <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
+                                <rotate-object>No</rotate-object>
                                 <diagonals>Enabled</diagonals>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -6116,6 +6116,252 @@
                     <world>
                         <x>-560</x>
                         <y>1568</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="216">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5584</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="214">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4400</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="213">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3392</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="211">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2336</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="210">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1856</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514285743</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ant" uid="209">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Destination>0</Destination>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1200</x>
+                        <y>1792</y>
                         <z>0</z>
                         <width>35</width>
                         <height>35</height>
@@ -6499,129 +6745,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Ant" uid="209">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1200</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Ant" uid="210">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1856</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Ant" uid="211">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2336</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Ant" uid="212">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6652,129 +6775,6 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2656</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Ant" uid="213">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3392</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Ant" uid="214">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4400</x>
-                        <y>1792</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.514285743</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Ant" uid="216">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Destination>0</Destination>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5584</x>
                         <y>1792</y>
                         <z>0</z>
                         <width>35</width>
@@ -6823,6 +6823,50 @@
                         <depth>0</depth>
                         <hotspotX>0.514285743</hotspotX>
                         <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AntSpawn" uid="218">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4816</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="FlySpawn" uid="219">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4816</x>
+                        <y>992</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
