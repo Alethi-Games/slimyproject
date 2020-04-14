@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Game</layout>
+        <layout order="0">Game</layout>
         <layout order="2">Menu</layout>
         <layout order="3">Credits</layout>
-        <event-sheet order="1">Game</event-sheet>
+        <event-sheet active="1" order="1">Game</event-sheet>
         <event-sheet order="4">Event sheet 1</event-sheet>
         <event-sheet order="5">Menu</event-sheet>
     </open-tabs>
@@ -24,21 +24,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="1" name="ITEMS" />
+        <family expanded="0" name="Items" />
         <family expanded="0" name="User" />
         <family expanded="0" name="Food" />
-        <family expanded="1" name="Objects" />
-        <family expanded="1" name="PhoneControls" />
+        <family expanded="0" name="Objects" />
+        <family expanded="0" name="PhoneControls" />
+        <family expanded="0" name="Mobs" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Objects/" />
+        <folder expanded="0" path="object-folder/Objects/" />
         <folder expanded="0" path="object-folder/Sound/" />
         <folder expanded="0" path="object-folder/Menu/" />
         <folder expanded="0" path="object-folder/Terrain/" />
         <folder expanded="0" path="object-folder/Additonal/" />
         <folder expanded="0" path="object-folder/UI/" />
-        <folder expanded="0" path="object-folder/Mobs/" />
+        <folder expanded="1" path="object-folder/Mobs/" />
         <folder expanded="0" path="object-folder/Player/" />
         <folder expanded="1" path="object-folder/Buildings/" />
         <folder expanded="0" path="object-folder/Controls/" />
@@ -70,6 +71,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Scroll/" />
         <folder expanded="1" path="animation-folder/Fly/" />
+        <folder expanded="1" path="animation-folder/Ant/" />
         <folder expanded="1" path="animation-folder/View/" />
         <folder expanded="1" path="animation-folder/Player/" />
         <folder expanded="1" path="animation-folder/LeftTap/" />

@@ -621,6 +621,43 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Ant" sid="403863857169215">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Destination" sid="970974461312691" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Pathfinding" sid="134940733795882">
+                        <behavior id="Pathfinding" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111974870851234" speed="5">
+                        <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\000.png">
+                            <collision-poly>
+                                <point x="0.214286" y="0.253572" />
+                                <point x="0.914286" y="0.317857" />
+                                <point x="0.800001" y="0.571429" />
+                                <point x="0.578572" y="0.678572" />
+                                <point x="0.45" y="0.703572" />
+                                <point x="0.146428" y="0.675001" />
+                                <point x="0.0892857" y="0.45" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\001.png">
+                            <collision-poly>
+                                <point x="0.214286" y="0.271429" />
+                                <point x="0.960715" y="0.3" />
+                                <point x="0.900001" y="0.492857" />
+                                <point x="0.728572" y="0.653572" />
+                                <point x="0.510714" y="0.696429" />
+                                <point x="0.125" y="0.632143" />
+                                <point x="0.1" y="0.425" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Player">
             <object-type name="View" sid="579028097216429">
@@ -942,7 +979,7 @@
         </object-type>
     </object-folder>
     <families>
-        <family name="ITEMS" plugin-id="Sprite" sid="808040129914787">
+        <family name="Items" plugin-id="Sprite" sid="808040129914787">
             <members>
                 <member>Acorn</member>
                 <member>Cookie</member>
@@ -1004,6 +1041,12 @@
                     <behavior id="Anchor" />
                 </behavior-type>
             </behaviors>
+        </family>
+        <family name="Mobs" plugin-id="Sprite" sid="652032948521309">
+            <members>
+                <member>Ant</member>
+                <member>Fly</member>
+            </members>
         </family>
     </families>
     <layout-folder>
