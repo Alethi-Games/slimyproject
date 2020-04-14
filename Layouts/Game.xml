@@ -6653,7 +6653,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SharpedRock" uid="206">
+                <instance type="SharpRock" uid="206">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

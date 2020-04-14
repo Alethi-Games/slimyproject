@@ -324,11 +324,94 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="SharpedRock" sid="105375735299750">
+            <object-type name="SharpRock" sid="105375735299750">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761376556761923" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Flame" sid="992188524851079">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="32" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848920652841959" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\000.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.445313" />
+                                <point x="0.71875" y="0.5" />
+                                <point x="0.71875" y="0.859375" />
+                                <point x="0.5" y="0.867188" />
+                                <point x="0.296875" y="0.851563" />
+                                <point x="0.40625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\009.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\010.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\011.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\012.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\013.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\014.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\015.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\016.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\017.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\018.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\019.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\020.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\021.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\022.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\023.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\024.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\025.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\026.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\027.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\028.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\029.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\030.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Flame\Default\031.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FlameLight" sid="520837788573498">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583503166402948" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\FlameLight\Default\000.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Torch" sid="393116531292292">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588391359194724" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\Torch\Stick\000.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TorchLight" sid="124681763231333">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831469927810319" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Documentos\3ky Games\temp\Animations\TorchLight\Default\000.png">
+                            <collision-poly>
+                                <point x="0.27" y="0.27" />
+                                <point x="0.5" y="0.186667" />
+                                <point x="0.716667" y="0.283333" />
+                                <point x="0.806667" y="0.5" />
+                                <point x="0.723333" y="0.723333" />
+                                <point x="0.5" y="0.826667" />
+                                <point x="0.263333" y="0.736667" />
+                                <point x="0.166667" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -994,9 +1077,10 @@
                 <member>LeafPile</member>
                 <member>OakLog</member>
                 <member>Rock</member>
-                <member>SharpedRock</member>
+                <member>SharpRock</member>
                 <member>Stick</member>
                 <member>StoneTool</member>
+                <member>Torch</member>
                 <member>Twig</member>
             </members>
             <instance-variables>
@@ -1054,6 +1138,12 @@
             <members>
                 <member>Ant</member>
                 <member>Fly</member>
+            </members>
+        </family>
+        <family name="Light" plugin-id="Sprite" sid="135173304639707">
+            <members>
+                <member>Flame</member>
+                <member>FlameLight</member>
             </members>
         </family>
     </families>
