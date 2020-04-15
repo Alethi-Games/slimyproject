@@ -1,4 +1,3 @@
-Branch: Potato
 Alethi Games 2020 - All rights reserved
 
 Programmers:
