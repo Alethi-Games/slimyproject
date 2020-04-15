@@ -71,7 +71,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Scroll/" />
         <folder expanded="1" path="animation-folder/Fly/" />
-        <folder expanded="1" path="animation-folder/Ant/" />
         <folder expanded="1" path="animation-folder/View/" />
         <folder expanded="1" path="animation-folder/Player/" />
         <folder expanded="1" path="animation-folder/LeftTap/" />
@@ -81,5 +80,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Craft/" />
         <folder expanded="1" path="animation-folder/BackTap/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Ant/" />
+        <folder expanded="1" path="animation-folder/AntSpawn/" />
+        <folder expanded="1" path="animation-folder/FlySpawn/" />
     </folders-expanded>
 </c2uistate>

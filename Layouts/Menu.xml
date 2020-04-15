@@ -211,7 +211,7 @@
                 </instance>
                 <instance type="Text" uid="205">
                     <properties>
-                        <text>1.5</text>
+                        <text>1.6.0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Brush Script MT,-22.4,400,1</font>
                         <color>0,0,0</color>

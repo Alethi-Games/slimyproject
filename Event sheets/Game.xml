@@ -239,33 +239,6 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-group description="" sid="523991942971028" title="Easters">
-                            <sub-events>
-                                <event-block sid="684073416468276">
-                                    <conditions>
-                                        <condition id="2" name="Key is down" sid="733511845728523" type="Keyboard">
-                                            <param id="0" name="Key">65</param>
-                                        </condition>
-                                        <condition id="2" name="Key is down" sid="804983743353402" type="Keyboard">
-                                            <param id="0" name="Key">87</param>
-                                        </condition>
-                                        <condition id="2" name="Key is down" sid="140493845610401" type="Keyboard">
-                                            <param id="0" name="Key">82</param>
-                                        </condition>
-                                        <condition id="2" name="Key is down" sid="698428522669165" type="Keyboard">
-                                            <param id="0" name="Key">84</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Spawn another object" sid="211059071632285" type="Player">
-                                            <param id="0" name="Object">Cookie</param>
-                                            <param id="1" name="Layer">3</param>
-                                            <param id="2" name="Image point">0</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-group>
                         <event-block sid="489238837530869">
                             <conditions>
                                 <condition behavior="Platform" id="3" name="Is jumping" sid="847214001309781" type="Player" />
@@ -758,38 +731,32 @@
                                                     <param id="0" name="Instance variable">Picked</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
-                                            <sub-events>
-                                                <event-block sid="905538983350641">
-                                                    <conditions />
-                                                    <actions>
-                                                        <action id="-13" name="Set boolean" sid="157775747616561" type="Player">
-                                                            <param id="0" name="Instance variable">Idle</param>
-                                                            <param id="1" name="Value">0</param>
-                                                        </action>
-                                                        <action id="0" name="Spawn another object" sid="159427839432670" type="Twig">
-                                                            <param id="0" name="Object">Stick</param>
-                                                            <param id="1" name="Layer">&quot;Items&quot;</param>
-                                                            <param id="2" name="Image point">0</param>
-                                                        </action>
-                                                        <action id="-9" name="Destroy" sid="793731120647455" type="Twig" />
-                                                        <action id="-10" name="Set value" sid="697495916741402" type="Player">
-                                                            <param id="0" name="Instance variable">Inventory</param>
-                                                            <param id="1" name="Value">&quot;Stick&quot;</param>
-                                                        </action>
-                                                        <action id="-14" name="Toggle boolean" sid="232787628082350" type="Stick">
-                                                            <param id="0" name="Instance variable">Picked</param>
-                                                        </action>
-                                                        <action id="-16" name="Wait" sid="866213658112560" type="System">
-                                                            <param id="0" name="Seconds">0.1</param>
-                                                        </action>
-                                                        <action id="-13" name="Set boolean" sid="141238464629244" type="Player">
-                                                            <param id="0" name="Instance variable">Idle</param>
-                                                            <param id="1" name="Value">1</param>
-                                                        </action>
-                                                    </actions>
-                                                </event-block>
-                                            </sub-events>
+                                            <actions>
+                                                <action id="-13" name="Set boolean" sid="157775747616561" type="Player">
+                                                    <param id="0" name="Instance variable">Idle</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="0" name="Spawn another object" sid="159427839432670" type="Twig">
+                                                    <param id="0" name="Object">Stick</param>
+                                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                                    <param id="2" name="Image point">0</param>
+                                                </action>
+                                                <action id="-9" name="Destroy" sid="793731120647455" type="Twig" />
+                                                <action id="-10" name="Set value" sid="697495916741402" type="Player">
+                                                    <param id="0" name="Instance variable">Inventory</param>
+                                                    <param id="1" name="Value">&quot;Stick&quot;</param>
+                                                </action>
+                                                <action id="-14" name="Toggle boolean" sid="232787628082350" type="Stick">
+                                                    <param id="0" name="Instance variable">Picked</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="866213658112560" type="System">
+                                                    <param id="0" name="Seconds">0.1</param>
+                                                </action>
+                                                <action id="-13" name="Set boolean" sid="141238464629244" type="Player">
+                                                    <param id="0" name="Instance variable">Idle</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
                                         </event-block>
                                         <event-block sid="217818116495376">
                                             <conditions>
@@ -1086,166 +1053,251 @@
                 </event-group>
                 <event-group description="" sid="105162498898206" title="Mobs">
                     <sub-events>
-                        <event-group description="" sid="772227321672490" title="Ant">
+                        <event-group description="" sid="666893982171914" title="Ant">
                             <sub-events>
-                                <event-block sid="456171574491191">
+                                <event-block sid="206319034352841">
                                     <conditions>
-                                        <condition id="0" name="On collision with another object" sid="528267234039494" type="Ant">
+                                        <condition id="-8" name="Compare two values" sid="336887011280526" type="System">
+                                            <param id="0" name="First value">ant.Count</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Second value">20</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="515093446504122">
+                                            <conditions>
+                                                <condition id="-6" name="Every X seconds" sid="165163760607540" type="System">
+                                                    <param id="0" name="Interval (seconds)">random(5,30)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="690017846625777" type="AntSpawn">
+                                                    <param id="0" name="Object">Ant</param>
+                                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                                    <param id="2" name="Image point">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="662839581160512">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="927948338652886" type="Ant">
                                             <param id="0" name="Object">Player</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-11" name="Add to" sid="287270757919085" type="Player">
+                                        <action id="-11" name="Add to" sid="442698506924835" type="Player">
                                             <param id="0" name="Instance variable">Size</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="707535299791745" type="Ant" />
+                                        <action id="-9" name="Destroy" sid="700773691859546" type="Ant" />
                                     </actions>
                                 </event-block>
-                                <event-block sid="555077531984069">
+                                <event-block sid="814560810412581">
                                     <conditions>
-                                        <condition id="-2" name="On start of layout" sid="713203037233292" type="System" />
+                                        <condition id="-2" name="On start of layout" sid="141037458668630" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="318616976308826" type="Ant">
+                                        <action id="-10" name="Set value" sid="333274712557405" type="Ant">
                                             <param id="0" name="Instance variable">Destination</param>
-                                            <param id="1" name="Value">random(0, 12790)</param>
+                                            <param id="1" name="Value">random(0, 8375)</param>
                                         </action>
-                                        <action behavior="Pathfinding" id="0" name="Find path" sid="398158107217778" type="Ant">
+                                        <action behavior="Pathfinding" id="0" name="Find path" sid="712552057525836" type="Ant">
                                             <param id="0" name="X">Ant.Destination</param>
                                             <param id="1" name="Y">1792</param>
                                         </action>
                                     </actions>
                                     <sub-events>
-                                        <event-block sid="716330747611229">
+                                        <event-block sid="670122166115834">
                                             <conditions>
-                                                <condition behavior="Platform" id="0" name="Is moving" sid="984221987477225" type="Ant" />
+                                                <condition id="-1" name="Compare X" sid="738409503912454" type="Ant">
+                                                    <param id="0" name="Comparison">4</param>
+                                                    <param id="1" name="X co-ordinate">Ant.Destination</param>
+                                                </condition>
                                             </conditions>
                                             <actions>
-                                                <action id="7" name="Set mirrored" sid="608037751935981" type="Ant">
+                                                <action id="7" name="Set mirrored" sid="746272007182019" type="Ant">
                                                     <param id="0" name="State">0</param>
                                                 </action>
                                             </actions>
                                         </event-block>
-                                        <event-block sid="135435141143405">
+                                        <event-block sid="210347405256954">
                                             <conditions>
-                                                <condition id="-22" name="Else" sid="593752652507602" type="System" />
+                                                <condition id="-22" name="Else" sid="793402346888680" type="System" />
                                             </conditions>
                                             <actions>
-                                                <action id="7" name="Set mirrored" sid="231723082830124" type="Ant">
+                                                <action id="7" name="Set mirrored" sid="257520725332201" type="Ant">
                                                     <param id="0" name="State">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
-                                <event-block sid="450214764137345">
+                                <event-block sid="632416691517890">
                                     <conditions>
-                                        <condition id="-6" name="Every X seconds" sid="971592107344180" type="System">
-                                            <param id="0" name="Interval (seconds)">10</param>
-                                        </condition>
+                                        <condition behavior="Pathfinding" id="5" name="On arrived" sid="273480882811358" type="Ant" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="0" name="Find path" sid="767191685684398" type="Ant">
-                                            <param id="0" name="X">random(0,12790)</param>
+                                        <action id="-10" name="Set value" sid="312822801480670" type="Ant">
+                                            <param id="0" name="Instance variable">Destination</param>
+                                            <param id="1" name="Value">random(0, 8375)</param>
+                                        </action>
+                                        <action behavior="Pathfinding" id="0" name="Find path" sid="119118965511764" type="Ant">
+                                            <param id="0" name="X">Ant.Destination</param>
                                             <param id="1" name="Y">1792</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="230039176079713" type="System">
+                                            <param id="0" name="Seconds">3</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="237561906975595">
+                                <event-block sid="728002769735785">
                                     <conditions>
-                                        <condition id="-6" name="Every X seconds" sid="442209778219859" type="System">
+                                        <condition id="-6" name="Every X seconds" sid="867412039544211" type="System">
                                             <param id="0" name="Interval (seconds)">0.2</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="569849232181084" type="Ant">
+                                        <action id="5" name="Set frame" sid="234637805098710" type="Ant">
                                             <param id="0" name="Frame number">0</param>
                                         </action>
-                                        <action id="-16" name="Wait" sid="333795471033565" type="System">
+                                        <action id="-16" name="Wait" sid="830467344663791" type="System">
                                             <param id="0" name="Seconds">0.2</param>
                                         </action>
-                                        <action id="5" name="Set frame" sid="406290717215246" type="Ant">
+                                        <action id="5" name="Set frame" sid="469581348915093" type="Ant">
                                             <param id="0" name="Frame number">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="705905653286544">
+                                <event-block sid="152557531997830">
                                     <conditions>
-                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="913699145603614" type="Ant" />
+                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="956326212943766" type="Ant" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="118778117755128" type="Ant" />
+                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="879401024830233" type="Ant" />
                                     </actions>
+                                    <sub-events>
+                                        <event-block sid="607376843603280">
+                                            <conditions>
+                                                <condition id="-1" name="Compare X" sid="246785578141235" type="Ant">
+                                                    <param id="0" name="Comparison">4</param>
+                                                    <param id="1" name="X co-ordinate">Ant.Destination</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="164529278984922" type="Ant">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="951440634934191">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="995074463649192" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="277514313153282" type="Ant">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-group>
-                        <event-group description="" sid="395413225383475" title="Fly">
+                        <event-group description="" sid="329410373329767" title="Fly">
                             <sub-events>
-                                <event-block sid="310031959458373">
+                                <event-block sid="521747239494033">
                                     <conditions>
-                                        <condition id="0" name="On collision with another object" sid="939197936687531" type="Fly">
+                                        <condition id="-8" name="Compare two values" sid="825843589189620" type="System">
+                                            <param id="0" name="First value">Fly.Count</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Second value">50</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="627492410480935">
+                                            <conditions>
+                                                <condition id="-6" name="Every X seconds" sid="685571275990516" type="System">
+                                                    <param id="0" name="Interval (seconds)">random(5,30)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Spawn another object" sid="444342866973713" type="FlySpawn">
+                                                    <param id="0" name="Object">Fly</param>
+                                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                                    <param id="2" name="Image point">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="964029952338944">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="663788791671658" type="Fly">
                                             <param id="0" name="Object">Player</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-11" name="Add to" sid="744823728118137" type="Player">
+                                        <action id="-11" name="Add to" sid="249915848563861" type="Player">
                                             <param id="0" name="Instance variable">Size</param>
                                             <param id="1" name="Value">4</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="846951662311733" type="Fly" />
+                                        <action id="-9" name="Destroy" sid="493196794479585" type="Fly" />
                                     </actions>
                                 </event-block>
-                                <event-block sid="931719278760980">
+                                <event-block sid="992451698626719">
                                     <conditions>
-                                        <condition id="-2" name="On start of layout" sid="548443393286598" type="System" />
+                                        <condition id="-2" name="On start of layout" sid="588630075987814" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="0" name="Find path" sid="712634857432760" type="Fly">
+                                        <action behavior="Pathfinding" id="0" name="Find path" sid="325390987360019" type="Fly">
                                             <param id="0" name="X">random(0,12790)</param>
                                             <param id="1" name="Y">random(500, 1690)</param>
                                         </action>
-                                        <action behavior="Pathfinding" id="5" name="Add obstacle" sid="807942327883381" type="Fly">
+                                        <action behavior="Pathfinding" id="5" name="Add obstacle" sid="801230198654941" type="Fly">
                                             <param id="0" name="Obstacle">GrassBlock</param>
                                         </action>
-                                        <action behavior="Pathfinding" id="5" name="Add obstacle" sid="267782854221083" type="Fly">
+                                        <action behavior="Pathfinding" id="5" name="Add obstacle" sid="949508781347409" type="Fly">
                                             <param id="0" name="Obstacle">DirtCube</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block any="1" sid="123053657696378">
+                                <event-block any="1" sid="384466317896361">
                                     <conditions>
-                                        <condition id="-6" name="Every X seconds" sid="945586260363590" type="System">
+                                        <condition id="-6" name="Every X seconds" sid="725784382643304" type="System">
                                             <param id="0" name="Interval (seconds)">10</param>
                                         </condition>
-                                        <condition behavior="Pathfinding" id="5" name="On arrived" sid="822090255530734" type="Fly" />
+                                        <condition behavior="Pathfinding" id="5" name="On arrived" sid="758952257479882" type="Fly" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="0" name="Find path" sid="968959212060400" type="Fly">
+                                        <action behavior="Pathfinding" id="0" name="Find path" sid="905399868821871" type="Fly">
                                             <param id="0" name="X">random(0,12790)</param>
                                             <param id="1" name="Y">random(500, 1690)</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="280880805024848">
+                                <event-block sid="284293265337730">
                                     <conditions>
-                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="496112409426547" type="Fly" />
+                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="687251065562913" type="Fly" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="356953511473635" type="Fly" />
+                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="702358198780732" type="Fly" />
                                     </actions>
                                 </event-block>
-                                <event-block any="1" sid="891960088528222">
+                                <event-block any="1" sid="505153878289086">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="732080613791876" type="Fly">
+                                        <condition id="1" name="Is overlapping another object" sid="456981397733506" type="Fly">
                                             <param id="0" name="Object">GrassBlock</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="138858427157253" type="Fly">
+                                        <condition id="1" name="Is overlapping another object" sid="806060206679931" type="Fly">
                                             <param id="0" name="Object">DirtCube</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-2" name="Set Y" sid="619946819794668" type="Fly">
+                                        <action id="-2" name="Set Y" sid="575610844346218" type="Fly">
                                             <param id="0" name="Y">100</param>
                                         </action>
                                     </actions>
@@ -1258,10 +1310,13 @@
                     <sub-events>
                         <event-group description="" sid="588516670745487" title="Fire">
                             <sub-events>
-                                <event-block sid="436069536314749">
+                                <event-block any="1" sid="436069536314749">
                                     <conditions>
                                         <condition id="4" name="On finished" sid="686625706674352" type="Flame">
                                             <param id="0" name="Animation">&quot;Default&quot;</param>
+                                        </condition>
+                                        <condition id="-6" name="Every X seconds" sid="270182856005481" type="System">
+                                            <param id="0" name="Interval (seconds)">5</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -1643,6 +1698,33 @@
         </event-group>
         <event-group description="" sid="454082059560299" title="Core">
             <sub-events>
+                <event-group description="" sid="523991942971028" title="Easters">
+                    <sub-events>
+                        <event-block sid="684073416468276">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="733511845728523" type="Keyboard">
+                                    <param id="0" name="Key">65</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="804983743353402" type="Keyboard">
+                                    <param id="0" name="Key">87</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="140493845610401" type="Keyboard">
+                                    <param id="0" name="Key">82</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="698428522669165" type="Keyboard">
+                                    <param id="0" name="Key">84</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="211059071632285" type="Player">
+                                    <param id="0" name="Object">Cookie</param>
+                                    <param id="1" name="Layer">3</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="704551817457770" title="Menu">
                     <sub-events>
                         <event-block any="1" sid="371394959662329">
@@ -2267,5 +2349,9 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <comment>FOR IMPLEMENTING NEW STUFF</comment>
+        <event-group description="FOR MERGING" sid="229823506260257" title=".Controls" />
+        <event-group description="FOR MERGING" sid="174602434272222" title=".Game Objects" />
+        <event-group description="FOR MERGING" sid="344065907866633" title=".Core" />
     </events>
 </c2eventsheet>
