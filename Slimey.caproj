@@ -752,6 +752,47 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Ant" sid="213577498899930">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Destination" sid="979923175545828" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Pathfinding" sid="519188206806941">
+                        <behavior id="Pathfinding" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683075626344911" speed="5">
+                        <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\temp\mig stable\Animations\Ant\Default\000.png" />
+                        <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\temp\mig stable\Animations\Ant\Default\001.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MotherSpider" sid="319151195106558">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Pathfinding" sid="728825372555617">
+                        <behavior id="Pathfinding" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170394508770409" speed="5">
+                        <frame duration="1" hotspotX="0.504762" hotspotY="0.504762" original-source="D:\Documentos\3ky Games\000.png">
+                            <collision-poly>
+                                <point x="0.228571" y="0.228571" />
+                                <point x="0.542857" y="0.204762" />
+                                <point x="0.714286" y="0.1" />
+                                <point x="0.976191" y="0.509524" />
+                                <point x="0.82381" y="0.942857" />
+                                <point x="0.519048" y="0.6" />
+                                <point x="0.0714286" y="0.933334" />
+                                <point x="0.190476" y="0.580953" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Player">
             <object-type name="View" sid="579028097216429">
@@ -1127,6 +1168,24 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Spawn">
+            <object-type name="FlySpawn" sid="830075439154809">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956647006493105" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AntSpawn" sid="564589678512305">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950230946025867" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Function" sid="975187649848447">
             <plugin id="Function" />
         </object-type>
@@ -1142,52 +1201,11 @@
         <object-type name="Back" sid="297482797825218">
             <plugin id="Button" />
         </object-type>
-        <object-type name="Sprite5" sid="275169083091573">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490417219588504" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Touch" sid="649031996270048">
             <plugin id="Touch" />
         </object-type>
         <object-type name="Button" sid="677653242303994">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="Ant" sid="213577498899930">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Destination" sid="979923175545828" type="number" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="Pathfinding" sid="519188206806941">
-                    <behavior id="Pathfinding" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683075626344911" speed="5">
-                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\temp\mig stable\Animations\Ant\Default\000.png" />
-                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="D:\Documentos\3ky Games\temp\mig stable\Animations\Ant\Default\001.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="AntSpawn" sid="564589678512305">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950230946025867" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="FlySpawn" sid="830075439154809">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956647006493105" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
     </object-folder>
     <families>

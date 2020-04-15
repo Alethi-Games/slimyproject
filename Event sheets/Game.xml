@@ -1080,6 +1080,72 @@
                 </event-group>
                 <event-group description="" sid="105162498898206" title="Mobs">
                     <sub-events>
+                        <event-group description="" sid="802969105622270" title="Mother Spider">
+                            <sub-events>
+                                <event-block sid="501867877473549">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="438518792698684" type="System" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="402317868594137">
+                                            <conditions>
+                                                <condition id="-1" name="Compare X" sid="997605420871016" type="Player">
+                                                    <param id="0" name="Comparison">5</param>
+                                                    <param id="1" name="X co-ordinate">7555</param>
+                                                </condition>
+                                                <condition id="-1" name="Compare X" sid="835359794615728" type="Player">
+                                                    <param id="0" name="Comparison">3</param>
+                                                    <param id="1" name="X co-ordinate">8200</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="Pathfinding" id="0" name="Find path" sid="319029386782510" type="MotherSpider">
+                                                    <param id="0" name="X">Player.X</param>
+                                                    <param id="1" name="Y">Player.Y</param>
+                                                </action>
+                                                <action behavior="Pathfinding" id="1" name="Move along path" sid="294556374473544" type="MotherSpider" />
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="581532332203977">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="182006210801664" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="Pathfinding" id="0" name="Find path" sid="746469081173182" type="MotherSpider">
+                                                    <param id="0" name="X">8100</param>
+                                                    <param id="1" name="Y">1200</param>
+                                                </action>
+                                                <action behavior="Pathfinding" id="1" name="Move along path" sid="329169312736574" type="MotherSpider" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="477339589891845">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="606831398144447" type="MotherSpider">
+                                            <param id="0" name="Object">Player</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="605387234440794">
+                                            <conditions>
+                                                <condition id="-6" name="Every X seconds" sid="419255315500785" type="System">
+                                                    <param id="0" name="Interval (seconds)">1.0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="333483677088195" type="Player">
+                                                    <param id="0" name="Instance variable">Size</param>
+                                                    <param id="1" name="Value">5</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
                         <event-group description="" sid="666893982171914" title="Ant">
                             <sub-events>
                                 <event-block sid="206319034352841">
@@ -1095,7 +1161,7 @@
                                         <event-block sid="515093446504122">
                                             <conditions>
                                                 <condition id="-6" name="Every X seconds" sid="165163760607540" type="System">
-                                                    <param id="0" name="Interval (seconds)">random(5,30)</param>
+                                                    <param id="0" name="Interval (seconds)">random(2,10)</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
@@ -1124,7 +1190,7 @@
                                 </event-block>
                                 <event-block sid="814560810412581">
                                     <conditions>
-                                        <condition id="-2" name="On start of layout" sid="141037458668630" type="System" />
+                                        <condition id="-18" name="On created" sid="141037458668630" type="Ant" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Set value" sid="333274712557405" type="Ant">
