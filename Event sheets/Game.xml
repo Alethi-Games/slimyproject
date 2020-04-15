@@ -328,136 +328,136 @@
                 </event-group>
                 <event-group description="" sid="926151570155368" title="Item Controls">
                     <sub-events>
-                        <event-block any="1" sid="993284889810912">
+                        <event-block any="1" sid="614006790648766">
                             <conditions>
-                                <condition id="0" name="On key pressed" sid="302668098848805" type="Keyboard">
+                                <condition id="0" name="On key pressed" sid="830091112946161" type="Keyboard">
                                     <param id="0" name="Key">81</param>
                                 </condition>
-                                <condition id="17" name="On tap object" sid="210654275832471" type="Touch">
+                                <condition id="17" name="On tap object" sid="665463512870880" type="Touch">
                                     <param id="0" name="Object">Pick</param>
                                 </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="440521591331846">
+                                <event-block sid="698328544763749">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="211578088114370" type="Player">
+                                        <condition id="-7" name="Compare instance variable" sid="419490117910707" type="Player">
                                             <param id="0" name="Instance variable">Inv</param>
                                             <param id="1" name="Comparison">2</param>
                                             <param id="2" name="Value">1</param>
                                         </condition>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="343077932632772" type="Player">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="780973052195517" type="Player">
                                             <param id="0" name="Instance variable">Idle</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-13" name="Set boolean" sid="125912265160730" type="Player">
+                                        <action id="-13" name="Set boolean" sid="255088482146901" type="Player">
                                             <param id="0" name="Instance variable">Idle</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
-                                        <action id="-11" name="Add to" sid="903047601891135" type="Player">
+                                        <action id="-11" name="Add to" sid="721600177278212" type="Player">
                                             <param id="0" name="Instance variable">Inv</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="-26" name="Move to layer" sid="111148188494077" type="ITEMS">
+                                        <action id="-26" name="Move to layer" sid="484476716613267" type="ITEMS">
                                             <param id="0" name="Layer">&quot;Items&quot;</param>
                                         </action>
-                                        <action id="-13" name="Set boolean" sid="140856327518891" type="ITEMS">
+                                        <action id="-13" name="Set boolean" sid="337256409656238" type="ITEMS">
                                             <param id="0" name="Instance variable">Picked</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
-                                        <action behavior="Pin" id="1" name="Unpin" sid="323125837291420" type="ITEMS" />
-                                        <action id="-16" name="Wait" sid="254812792392727" type="System">
+                                        <action behavior="Pin" id="1" name="Unpin" sid="848221671711386" type="ITEMS" />
+                                        <action id="-16" name="Wait" sid="894364306753185" type="System">
                                             <param id="0" name="Seconds">0.2</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="590439498070520" type="Player">
+                                        <action id="-10" name="Set value" sid="871785955393497" type="Player">
                                             <param id="0" name="Instance variable">Inventory</param>
                                             <param id="1" name="Value">&quot;Empty&quot;</param>
                                         </action>
-                                        <action id="-13" name="Set boolean" sid="599247143432206" type="Player">
+                                        <action id="-13" name="Set boolean" sid="985515211880062" type="Player">
                                             <param id="0" name="Instance variable">Idle</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="228556861772807">
+                                <event-block sid="884028175925988">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="427794557254578" type="Player">
+                                        <condition id="-7" name="Compare instance variable" sid="587786772346608" type="Player">
                                             <param id="0" name="Instance variable">Inv</param>
                                             <param id="1" name="Comparison">4</param>
                                             <param id="2" name="Value">0</param>
                                         </condition>
-                                        <condition id="-15" name="Pick nearest/furthest" sid="726299038307616" type="ITEMS">
+                                        <condition id="-15" name="Pick nearest/furthest" sid="799762317743308" type="ITEMS">
                                             <param id="0" name="Which">0</param>
                                             <param id="1" name="X">Player.X</param>
                                             <param id="2" name="Y">Player.Y</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="161058958614241" type="User">
+                                        <condition id="1" name="Is overlapping another object" sid="847505105029685" type="User">
                                             <param id="0" name="Object">ITEMS</param>
                                         </condition>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="906665663822405" type="Player">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="993303108511677" type="Player">
                                             <param id="0" name="Instance variable">Idle</param>
                                         </condition>
                                     </conditions>
                                     <actions />
                                     <sub-events>
-                                        <event-block sid="179466244452139">
+                                        <event-block sid="641864232997346">
                                             <conditions>
-                                                <condition id="-7" name="Compare instance variable" sid="321030845885200" type="ITEMS">
+                                                <condition id="-7" name="Compare instance variable" sid="268454791783999" type="ITEMS">
                                                     <param id="0" name="Instance variable">Size</param>
                                                     <param id="1" name="Comparison">4</param>
                                                     <param id="2" name="Value">Player.Size</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action id="-18" name="Rotate clockwise" sid="104012503517483" type="Player">
+                                                <action id="-18" name="Rotate clockwise" sid="727104474362442" type="Player">
                                                     <param id="0" name="Degrees">30</param>
                                                 </action>
-                                                <action id="-16" name="Wait" sid="352457556434145" type="System">
+                                                <action id="-16" name="Wait" sid="688609752657470" type="System">
                                                     <param id="0" name="Seconds">0.5</param>
                                                 </action>
-                                                <action id="-19" name="Rotate counter-clockwise" sid="960573138333358" type="Player">
+                                                <action id="-19" name="Rotate counter-clockwise" sid="501891722630541" type="Player">
                                                     <param id="0" name="Degrees">30</param>
                                                 </action>
                                             </actions>
                                         </event-block>
-                                        <event-block sid="585640805823398">
+                                        <event-block sid="285094605748348">
                                             <conditions>
-                                                <condition id="-7" name="Compare instance variable" sid="572197065704647" type="ITEMS">
+                                                <condition id="-7" name="Compare instance variable" sid="103758996031640" type="ITEMS">
                                                     <param id="0" name="Instance variable">Size</param>
                                                     <param id="1" name="Comparison">3</param>
                                                     <param id="2" name="Value">Player.Size</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action id="-13" name="Set boolean" sid="321272194128524" type="Player">
+                                                <action id="-13" name="Set boolean" sid="410515026512438" type="Player">
                                                     <param id="0" name="Instance variable">Idle</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="932866424051596" type="Player">
+                                                <action id="-10" name="Set value" sid="462735912951745" type="Player">
                                                     <param id="0" name="Instance variable">Inventory</param>
                                                     <param id="1" name="Value">ITEMS.Namee</param>
                                                 </action>
-                                                <action id="-12" name="Subtract from" sid="835325583940466" type="Player">
+                                                <action id="-12" name="Subtract from" sid="123883244246970" type="Player">
                                                     <param id="0" name="Instance variable">Inv</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
-                                                <action id="-4" name="Set position to another object" sid="859743216710496" type="ITEMS">
+                                                <action id="-4" name="Set position to another object" sid="987744295041926" type="ITEMS">
                                                     <param id="0" name="Object">Player</param>
                                                     <param id="1" name="Image point (optional)">&quot;Hands&quot;</param>
                                                 </action>
-                                                <action id="-13" name="Set boolean" sid="234408312025417" type="ITEMS">
+                                                <action id="-13" name="Set boolean" sid="971971374063563" type="ITEMS">
                                                     <param id="0" name="Instance variable">Picked</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
-                                                <action behavior="Pin" id="0" name="Pin to object" sid="242957230757787" type="ITEMS">
+                                                <action behavior="Pin" id="0" name="Pin to object" sid="494318365958205" type="ITEMS">
                                                     <param id="0" name="Pin to">Player</param>
                                                     <param id="1" name="Mode">0</param>
                                                 </action>
-                                                <action id="-16" name="Wait" sid="443972426225760" type="System">
+                                                <action id="-16" name="Wait" sid="916115732100651" type="System">
                                                     <param id="0" name="Seconds">0.2</param>
                                                 </action>
-                                                <action id="-13" name="Set boolean" sid="890020441831870" type="Player">
+                                                <action id="-13" name="Set boolean" sid="870328799716038" type="Player">
                                                     <param id="0" name="Instance variable">Idle</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
@@ -1372,35 +1372,7 @@
                                 </event-block>
                             </sub-events>
                         </event-group>
-                        <event-group description="" sid="159892324805268" title="Items">
-                            <sub-events>
-                                <event-block sid="325297002281888">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="853579848191982" type="ITEMS">
-                                            <param id="0" name="Instance variable">Health</param>
-                                            <param id="1" name="Comparison">3</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-15" name="Pick nearest/furthest" sid="765383408110260" type="ITEMS">
-                                            <param id="0" name="Which">0</param>
-                                            <param id="1" name="X">Player.X</param>
-                                            <param id="2" name="Y">Player.Y</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Destroy" sid="367129204547659" type="ITEMS" />
-                                        <action id="-10" name="Set value" sid="147544129622338" type="Player">
-                                            <param id="0" name="Instance variable">Inventory</param>
-                                            <param id="1" name="Value">&quot;Empty&quot;</param>
-                                        </action>
-                                        <action id="-11" name="Add to" sid="478783055874324" type="Player">
-                                            <param id="0" name="Instance variable">Inv</param>
-                                            <param id="1" name="Value">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-group>
+                        <event-group description="" sid="159892324805268" title="Items" />
                         <event-group description="" sid="910754409218421" title="Plants">
                             <sub-events>
                                 <event-block sid="832607303137603">
@@ -2237,6 +2209,18 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="391218341413859">
+                            <conditions>
+                                <condition id="3" name="On key released" sid="780837505478602" type="Keyboard">
+                                    <param id="0" name="Key">98</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="920610633197291" type="View">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="921306511995541">
                             <conditions>
                                 <condition id="3" name="On key released" sid="404568178099065" type="Keyboard">
@@ -2247,18 +2231,6 @@
                                 <action id="-11" name="Add to" sid="720204068353432" type="Player">
                                     <param id="0" name="Instance variable">Size</param>
                                     <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="391218341413859">
-                            <conditions>
-                                <condition id="3" name="On key released" sid="780837505478602" type="Keyboard">
-                                    <param id="0" name="Key">98</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="920610633197291" type="View">
-                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -2351,8 +2323,108 @@
         </event-group>
         <comment>FOR IMPLEMENTING NEW STUFF</comment>
         <event-group description="FOR MERGING" sid="229823506260257" title=".Controls" />
-        <event-group description="FOR MERGING" disabled="1" sid="174602434272222" title=".Game Objects">
+        <event-group description="FOR MERGING" sid="174602434272222" title=".Game Objects">
             <sub-events>
+                <event-group description="" sid="845011478490976" title=".Objects and Items">
+                    <sub-events>
+                        <event-group description="" sid="457758853668026" title=".Items">
+                            <sub-events>
+                                <event-block sid="334909088361647">
+                                    <conditions>
+                                        <condition id="-15" name="Pick nearest/furthest" sid="824499156099241" type="ITEMS">
+                                            <param id="0" name="Which">0</param>
+                                            <param id="1" name="X">Player.X</param>
+                                            <param id="2" name="Y">Player.Y</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="176902018737195" type="ITEMS">
+                                            <param id="0" name="Instance variable">Health</param>
+                                            <param id="1" name="Comparison">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="975733355930002">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="170715340157784" type="ITEMS">
+                                                    <param id="0" name="Instance variable">Picked</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Destroy" sid="236967020720927" type="ITEMS" />
+                                                <action id="-10" name="Set value" sid="901350777148458" type="Player">
+                                                    <param id="0" name="Instance variable">Inventory</param>
+                                                    <param id="1" name="Value">&quot;Empty&quot;</param>
+                                                </action>
+                                                <action id="-11" name="Add to" sid="915844316852739" type="Player">
+                                                    <param id="0" name="Instance variable">Inv</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="779327608833295">
+                                            <conditions>
+                                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="190213578560324" type="ITEMS">
+                                                    <param id="0" name="Instance variable">Picked</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Destroy" sid="112144221603533" type="ITEMS" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="572237706312860" title=".Fire">
+                            <sub-events>
+                                <event-block sid="516356829296687">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="892149471105594" type="System">
+                                            <param id="0" name="Interval (seconds)">5</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="203080439897857">
+                                            <conditions>
+                                                <condition id="-15" name="Pick nearest/furthest" sid="201665588148578" type="FlameLight">
+                                                    <param id="0" name="Which">0</param>
+                                                    <param id="1" name="X">Flame.X</param>
+                                                    <param id="2" name="Y">Flame.Y</param>
+                                                </condition>
+                                                <condition id="-15" name="Pick nearest/furthest" sid="119890359885005" type="TorchLight">
+                                                    <param id="0" name="Which">0</param>
+                                                    <param id="1" name="X">Torch.X</param>
+                                                    <param id="2" name="Y">Torch.Y</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="883309891847607" type="Torch">
+                                                    <param id="0" name="Instance variable">Health</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action id="-12" name="Subtract from" sid="525910296047677" type="Flame">
+                                                    <param id="0" name="Instance variable">Health</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="158687282220273" type="Flame">
+                                                    <param id="0" name="Scale">SQRT(1/(60/Flame.Health))</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="911388246168713" type="FlameLight">
+                                                    <param id="0" name="Scale">SQRT(1/(60/Flame.Health))</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="305864279453694" type="TorchLight">
+                                                    <param id="0" name="Scale">1/(12/Torch.Health)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="904139604238398" title=".Item Controls">
                     <sub-events>
                         <event-block any="1" sid="593986687878863">
@@ -2386,16 +2458,16 @@
                                     <sub-events>
                                         <event-block sid="557830947874218">
                                             <conditions>
-                                                <condition id="-8" name="Is boolean instance variable set" sid="235081602367573" type="LeafPile">
-                                                    <param id="0" name="Instance variable">Picked</param>
+                                                <condition id="1" name="Is overlapping another object" sid="218577281942358" type="User">
+                                                    <param id="0" name="Object">Flame</param>
                                                 </condition>
                                             </conditions>
                                             <actions />
                                             <sub-events>
                                                 <event-block sid="566490686231502">
                                                     <conditions>
-                                                        <condition id="1" name="Is overlapping another object" sid="487457089971425" type="User">
-                                                            <param id="0" name="Object">Flame</param>
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="235081602367573" type="LeafPile">
+                                                            <param id="0" name="Instance variable">Picked</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>
@@ -2403,25 +2475,50 @@
                                                             <param id="0" name="Instance variable">Idle</param>
                                                             <param id="1" name="Value">0</param>
                                                         </action>
-                                                        <action id="0" name="Spawn another object" sid="401476343395247" type="Sharp">
-                                                            <param id="0" name="Object">Torch</param>
-                                                            <param id="1" name="Layer">&quot;Items&quot;</param>
-                                                            <param id="2" name="Image point">0</param>
+                                                        <action id="-11" name="Add to" sid="409625064860070" type="Flame">
+                                                            <param id="0" name="Instance variable">Health</param>
+                                                            <param id="1" name="Value">LeafPile.Health</param>
                                                         </action>
-                                                        <action id="-9" name="Destroy" sid="841381323661856" type="Stick" />
-                                                        <action id="-14" name="Toggle boolean" sid="332860702980042" type="Torch">
-                                                            <param id="0" name="Instance variable">Picked</param>
+                                                        <action id="-9" name="Destroy" sid="841381323661856" type="LeafPile" />
+                                                        <action id="0" name="Call function" sid="198310404880225" type="Function">
+                                                            <param id="0" name="Name">&quot;ClearInv&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
                                                         </action>
-                                                        <action id="-10" name="Set value" sid="409625064860070" type="Player">
-                                                            <param id="0" name="Instance variable">Inventory</param>
-                                                            <param id="1" name="Value">&quot;Torch&quot;</param>
+                                                        <action id="-13" name="Set boolean" sid="857960280417933" type="Player">
+                                                            <param id="0" name="Instance variable">Idle</param>
+                                                            <param id="1" name="Value">1</param>
                                                         </action>
                                                         <action id="-16" name="Wait" sid="730820809550157" type="System">
                                                             <param id="0" name="Seconds">0.1</param>
                                                         </action>
-                                                        <action id="-13" name="Set boolean" sid="297234909764044" type="Player">
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="121027261209556">
+                                                    <conditions>
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="803524462955897" type="OakLog">
+                                                            <param id="0" name="Instance variable">Picked</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="120340020362610" type="Player">
+                                                            <param id="0" name="Instance variable">Idle</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="-11" name="Add to" sid="529626092853288" type="Flame">
+                                                            <param id="0" name="Instance variable">Health</param>
+                                                            <param id="1" name="Value">OakLog.Health</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="235068454387885" type="OakLog" />
+                                                        <action id="0" name="Call function" sid="239342996380224" type="Function">
+                                                            <param id="0" name="Name">&quot;ClearInv&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="539153682075532" type="Player">
                                                             <param id="0" name="Instance variable">Idle</param>
                                                             <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="551767585978400" type="System">
+                                                            <param id="0" name="Seconds">0.1</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -2435,6 +2532,62 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="FOR MERGING" sid="344065907866633" title=".Core" />
+        <event-group description="FOR MERGING" sid="344065907866633" title=".Core">
+            <sub-events>
+                <event-group description="" sid="114292158392112" title=".Functions">
+                    <sub-events>
+                        <event-block sid="974487347781912">
+                            <conditions>
+                                <condition id="0" name="On function" sid="633652788082564" type="Function">
+                                    <param id="0" name="Name">&quot;ClearInv&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="279061912576045" type="Player">
+                                    <param id="0" name="Instance variable">Inv</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="210508871497734" type="Player">
+                                    <param id="0" name="Instance variable">Inventory</param>
+                                    <param id="1" name="Value">&quot;Empty&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="469839615502907" title=".Debug">
+                    <sub-events>
+                        <event-block sid="365138085834585">
+                            <conditions>
+                                <condition id="3" name="On key released" sid="557118245401206" type="Keyboard">
+                                    <param id="0" name="Key">104</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="386812042231570" type="User">
+                                    <param id="0" name="Object">Rock</param>
+                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="806275110372687">
+                            <conditions>
+                                <condition id="3" name="On key released" sid="199743543982505" type="Keyboard">
+                                    <param id="0" name="Key">103</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="714794802715891" type="User">
+                                    <param id="0" name="Object">OakLog</param>
+                                    <param id="1" name="Layer">&quot;Items&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

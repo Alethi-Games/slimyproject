@@ -352,6 +352,9 @@
             </object-type>
             <object-type name="Flame" sid="699689322319451">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Health" sid="685917435159510" type="number" />
+                </instance-variables>
                 <container>
                     <type>FlameLight</type>
                     <type>Flame</type>

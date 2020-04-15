@@ -4047,7 +4047,7 @@
                     <instance-variables>
                         <Picked>false</Picked>
                         <Namee>Log</Namee>
-                        <Size>45</Size>
+                        <Size>50</Size>
                         <Health>40</Health>
                         <ToolTier>0</ToolTier>
                     </instance-variables>
@@ -4487,6 +4487,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Health>20</Health>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4711,6 +4714,158 @@
                         <depth>0</depth>
                         <hotspotX>0.514285743</hotspotX>
                         <hotspotY>0.514285743</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LeafPile" uid="83">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Picked>false</Picked>
+                        <Namee>Leaf Glob</Namee>
+                        <Size>20</Size>
+                        <Health>15</Health>
+                        <ToolTier>0</ToolTier>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>400</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
+                                <jump-strength>700</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>850</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>112</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.515625</hotspotX>
+                        <hotspotY>0.9375</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="OakLog" uid="85">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Picked>false</Picked>
+                        <Namee>Log</Namee>
+                        <Size>50</Size>
+                        <Health>40</Health>
+                        <ToolTier>0</ToolTier>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>400</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>850</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="ShadowCaster">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                                <height>100</height>
+                                <tag></tag>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>208</x>
+                        <y>1776</y>
+                        <z>0</z>
+                        <width>157</width>
+                        <height>31</height>
+                        <depth>0</depth>
+                        <hotspotX>0.535031855</hotspotX>
+                        <hotspotY>0.774193525</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="OakLog" uid="86">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Picked>false</Picked>
+                        <Namee>Log</Namee>
+                        <Size>50</Size>
+                        <Health>40</Health>
+                        <ToolTier>0</ToolTier>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>400</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>850</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="ShadowCaster">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                                <height>100</height>
+                                <tag></tag>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>448</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>157</width>
+                        <height>31</height>
+                        <depth>0</depth>
+                        <hotspotX>0.535031855</hotspotX>
+                        <hotspotY>0.774193525</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -5093,7 +5248,7 @@
                     <instance-variables>
                         <Picked>false</Picked>
                         <Namee>Leaf Glob</Namee>
-                        <Size>22</Size>
+                        <Size>20</Size>
                         <Health>15</Health>
                         <ToolTier>0</ToolTier>
                     </instance-variables>
